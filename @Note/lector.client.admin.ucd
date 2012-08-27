@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="1344,742" id="lector.client.admin" metadata="uml2-1.0" initialized="true" scrolledY="109" tag="10" key="32303037303533312D313020404E6F7465">
+  <children xsi:type="editmodel:ClassEditModel" name="ReadingActivity" location="165,255" size="147,243" id="lector.client.admin.activity/ReadingActivity">
+    <children xsi:type="editmodel:CompartmentEditModel" size="124,144">
+      <children xsi:type="editmodel:AttributeEditModel" name="bookId" id="lector.client.admin.activity/ReadingActivity#bookId"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="catalogId" id="lector.client.admin.activity/ReadingActivity#catalogId"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="groupId" id="lector.client.admin.activity/ReadingActivity#groupId"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="id" id="lector.client.admin.activity/ReadingActivity#id"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="languageName" id="lector.client.admin.activity/ReadingActivity#languageName"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="name" id="lector.client.admin.activity/ReadingActivity#name"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="openCatalogId" id="lector.client.admin.activity/ReadingActivity#openCatalogId"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="professorId" id="lector.client.admin.activity/ReadingActivity#professorId"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="105,36">
+      <children xsi:type="editmodel:MethodEditModel" name="ReadingActivity" id="lector.client.admin.activity/ReadingActivity#ReadingActivity()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ReadingActivity" id="lector.client.admin.activity/ReadingActivity#ReadingActivity(Ljava.lang.String;Ljava.lang.String;Ljava.lang.Long;Ljava.lang.Long;Ljava.lang.Long;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Template" location="231,870" size="180,189" id="lector.client.admin.export.template/Template">
+    <children xsi:type="editmodel:CompartmentEditModel" size="157,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="categories" id="lector.client.admin.export.template/Template#categories"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="id" id="lector.client.admin.export.template/Template#id"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="modifyable" id="lector.client.admin.export.template/Template#modifyable"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="name" id="lector.client.admin.export.template/Template#name"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="userApp" id="lector.client.admin.export.template/Template#userApp"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="73,36">
+      <children xsi:type="editmodel:MethodEditModel" name="Template" id="lector.client.admin.export.template/Template#Template()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Template" id="lector.client.admin.export.template/Template#Template(Ljava.lang.String;ZLjava.util.ArrayList;Ljava.lang.Long;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="TemplateCategory" location="231,645" size="199,207" id="lector.client.admin.export.template/TemplateCategory">
+    <children xsi:type="editmodel:CompartmentEditModel" size="176,108">
+      <children xsi:type="editmodel:AttributeEditModel" name="annotationsIds" id="lector.client.admin.export.template/TemplateCategory#annotationsIds"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fatherId" id="lector.client.admin.export.template/TemplateCategory#fatherId"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="id" id="lector.client.admin.export.template/TemplateCategory#id"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="name" id="lector.client.admin.export.template/TemplateCategory#name"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="subCategories" id="lector.client.admin.export.template/TemplateCategory#subCategories"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="templateId" id="lector.client.admin.export.template/TemplateCategory#templateId"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="117,36">
+      <children xsi:type="editmodel:MethodEditModel" name="TemplateCategory" id="lector.client.admin.export.template/TemplateCategory#TemplateCategory()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="TemplateCategory" id="lector.client.admin.export.template/TemplateCategory#TemplateCategory(Ljava.lang.String;Ljava.util.ArrayList;Ljava.util.ArrayList;Ljava.lang.Long;Ljava.lang.Long;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="FolderDB" location="450,645" size="168,171" id="lector.client.catalogo.server/FolderDB" runTimeClassModel="getCatalogId(),FolderDB(Ljava.lang.String;),setCatalogId(Ljava.lang.Long;),entryIds,FolderDB(Ljava.util.ArrayList;Ljava.lang.String;),FolderDB()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="145,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="entryIds" id="lector.client.catalogo.server/FolderDB#entryIds"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="89,90">
+      <children xsi:type="editmodel:MethodEditModel" name="FolderDB" id="lector.client.catalogo.server/FolderDB#FolderDB()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="FolderDB" id="lector.client.catalogo.server/FolderDB#FolderDB(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="FolderDB" id="lector.client.catalogo.server/FolderDB#FolderDB(Ljava.util.ArrayList;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCatalogId" id="lector.client.catalogo.server/FolderDB#getCatalogId()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCatalogId" id="lector.client.catalogo.server/FolderDB#setCatalogId(Ljava.lang.Long;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.4/@sourceConnections.0" autoLocated="true" id="lector.client.catalogo.server/Entry&lt;-lector.client.catalogo.server/FolderDB" source="//@children.3" target="//@children.5" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="84,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="82,205" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="FileDB" location="617,645" size="199,171" id="lector.client.catalogo.server/FileDB" runTimeClassModel="getCatalogId(),FileDB(),setCatalogId(Ljava.lang.Long;),FileDB(Ljava.util.ArrayList;Ljava.lang.String;),FileDB(Ljava.lang.String;),annotationsIds">
+    <children xsi:type="editmodel:CompartmentEditModel" size="176,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="annotationsIds" id="lector.client.catalogo.server/FileDB#annotationsIds"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="89,90">
+      <children xsi:type="editmodel:MethodEditModel" name="FileDB" id="lector.client.catalogo.server/FileDB#FileDB(Ljava.util.ArrayList;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="FileDB" id="lector.client.catalogo.server/FileDB#FileDB(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="FileDB" id="lector.client.catalogo.server/FileDB#FileDB()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCatalogId" id="lector.client.catalogo.server/FileDB#getCatalogId()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCatalogId" id="lector.client.catalogo.server/FileDB#setCatalogId(Ljava.lang.Long;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="lector.client.catalogo.server/Entry&lt;-lector.client.catalogo.server/FileDB" source="//@children.4" target="//@children.3/@sourceConnections.0" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="99,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.0" name="Entry" location="538,405" size="164,207" id="lector.client.catalogo.server/Entry" runTimeClassModel="id,prePersist(),name,Entry(Ljava.util.ArrayList;Ljava.lang.String;),catalogId,Entry(Ljava.lang.String;),Entry(),fathers">
+    <children xsi:type="editmodel:CompartmentEditModel" size="141,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="catalogId" id="lector.client.catalogo.server/Entry#catalogId"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fathers" id="lector.client.catalogo.server/Entry#fathers"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="id" id="lector.client.catalogo.server/Entry#id"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="name" id="lector.client.catalogo.server/Entry#name"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="79,72">
+      <children xsi:type="editmodel:MethodEditModel" name="Entry" id="lector.client.catalogo.server/Entry#Entry(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Entry" id="lector.client.catalogo.server/Entry#Entry(Ljava.util.ArrayList;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Entry" id="lector.client.catalogo.server/Entry#Entry()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="prePersist" id="lector.client.catalogo.server/Entry#prePersist()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Catalogo" location="345,405" size="168,207" id="lector.client.catalogo.server/Catalogo" runTimeClassModel="id,isIsPrivate(),catalogName,entryIds,isPrivate,Catalogo(),setIsPrivate(Z),professorId">
+    <children xsi:type="editmodel:CompartmentEditModel" size="145,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="catalogName" id="lector.client.catalogo.server/Catalogo#catalogName"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="entryIds" id="lector.client.catalogo.server/Catalogo#entryIds"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="id" id="lector.client.catalogo.server/Catalogo#id"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="isPrivate" id="lector.client.catalogo.server/Catalogo#isPrivate"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="professorId" id="lector.client.catalogo.server/Catalogo#professorId"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="86,54">
+      <children xsi:type="editmodel:MethodEditModel" name="Catalogo" id="lector.client.catalogo.server/Catalogo#Catalogo()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isIsPrivate" id="lector.client.catalogo.server/Catalogo#isIsPrivate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setIsPrivate" id="lector.client.catalogo.server/Catalogo#setIsPrivate(Z)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Language" location="15,515" size="217,729" id="lector.client.language/Language" runTimeClassModel="save,filtering,filterButton,visibility,e_DeleteReply,cancel,annotationsFiltering,gO_To_PageFA,close,deleteAnnotation,getName(),deleting,annotation,closeFA,newAdmin,authors,filterButtonFA,filterButtonBrowser,fromExist,e_typeFilter,page,clearAnot,e_Not_a_number,backAdministrationButton,comment_AreaFA,new_Rule,hola,showDensity,setName(Ljava.lang.String;),e_Tags_Refresh,gO_To_Page,loading,done,setNewAdmint(Ljava.lang.String;),openTypes,e_Tag_Dont_Exist,w_Newer_version_of_anotation,e_Page_Dont_Exist,namePage,backUserButton,iD,e_Saving,e_filteringmesageAnnotations,front_Cover,browserMainButton,teacherTypes,saving,filterMainButton,allSelected,setTypes,no_Annotation,remove,e_loading,e_filteringmesagetypes,cancelFilter,e_deleting,Language(),e_UserLoad,dOYOUFilterOUT,title,e_Need_to_select_a_type,e_saving,e_ExistBefore,setTypesPublic,rule,e_Empty_Or_2Less_Tag,publication_Year,select_All,e_Coments_dont_be_refresh,pages,e_Types_refresh,acceptFilter,specifications,nameId,pageFA,new,comment_Area,all_Annotation,Language(Ljava.lang.String;),only_Selected,advance">
+    <children xsi:type="editmodel:CompartmentEditModel" size="210,1368">
+      <children xsi:type="editmodel:AttributeEditModel" name="acceptFilter" id="lector.client.language/Language#acceptFilter"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="advance" id="lector.client.language/Language#advance"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="allSelected" id="lector.client.language/Language#allSelected"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="all_Annotation" id="lector.client.language/Language#all_Annotation"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="annotation" id="lector.client.language/Language#annotation"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="annotationsFiltering" id="lector.client.language/Language#annotationsFiltering"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="authors" id="lector.client.language/Language#authors"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="backAdministrationButton" id="lector.client.language/Language#backAdministrationButton"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="backUserButton" id="lector.client.language/Language#backUserButton"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="browserMainButton" id="lector.client.language/Language#browserMainButton"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="cancel" id="lector.client.language/Language#cancel"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="cancelFilter" id="lector.client.language/Language#cancelFilter"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="clearAnot" id="lector.client.language/Language#clearAnot"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="close" id="lector.client.language/Language#close"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="closeFA" id="lector.client.language/Language#closeFA"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="comment_Area" id="lector.client.language/Language#comment_Area"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="comment_AreaFA" id="lector.client.language/Language#comment_AreaFA"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="dOYOUFilterOUT" id="lector.client.language/Language#dOYOUFilterOUT"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="deleteAnnotation" id="lector.client.language/Language#deleteAnnotation"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="deleting" id="lector.client.language/Language#deleting"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="done" id="lector.client.language/Language#done"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="e_Coments_dont_be_refresh" id="lector.client.language/Language#e_Coments_dont_be_refresh"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="e_DeleteReply" id="lector.client.language/Language#e_DeleteReply"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="e_Empty_Or_2Less_Tag" id="lector.client.language/Language#e_Empty_Or_2Less_Tag"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="e_ExistBefore" id="lector.client.language/Language#e_ExistBefore"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="e_Need_to_select_a_type" id="lector.client.language/Language#e_Need_to_select_a_type"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="e_Not_a_number" id="lector.client.language/Language#e_Not_a_number"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="e_Page_Dont_Exist" id="lector.client.language/Language#e_Page_Dont_Exist"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="e_Saving" id="lector.client.language/Language#e_Saving"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="e_Tag_Dont_Exist" id="lector.client.language/Language#e_Tag_Dont_Exist"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="e_Tags_Refresh" id="lector.client.language/Language#e_Tags_Refresh"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="e_Types_refresh" id="lector.client.language/Language#e_Types_refresh"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="101,90">
+      <children xsi:type="editmodel:MethodEditModel" name="Language" id="lector.client.language/Language#Language(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Language" id="lector.client.language/Language#Language()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="lector.client.language/Language#getName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setName" id="lector.client.language/Language#setName(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setNewAdmint" id="lector.client.language/Language#setNewAdmint(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="UserApp" location="360,16" size="171,369" id="lector.client.login/UserApp">
+    <children xsi:type="editmodel:CompartmentEditModel" size="148,216">
+      <children xsi:type="editmodel:AttributeEditModel" name="bookIds" id="lector.client.login/UserApp#bookIds"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="dNI" id="lector.client.login/UserApp#dNI"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="email" id="lector.client.login/UserApp#email"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="groupIds" id="lector.client.login/UserApp#groupIds"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="id" id="lector.client.login/UserApp#id"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="isAuthenticated" id="lector.client.login/UserApp#isAuthenticated"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lastName" id="lector.client.login/UserApp#lastName"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="loggedIn" id="lector.client.login/UserApp#loggedIn"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="loginUrl" id="lector.client.login/UserApp#loginUrl"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="logoutUrl" id="lector.client.login/UserApp#logoutUrl"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="name" id="lector.client.login/UserApp#name"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="profile" id="lector.client.login/UserApp#profile"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="120,90">
+      <children xsi:type="editmodel:MethodEditModel" name="UserApp" id="lector.client.login/UserApp#UserApp()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="UserApp" id="lector.client.login/UserApp#UserApp(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isIsAuthenticated" id="lector.client.login/UserApp#isIsAuthenticated()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setIsAuthenticated" id="lector.client.login/UserApp#setIsAuthenticated(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="lector.client.login/UserApp#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="GroupApp" location="525,43" size="171,171" id="lector.client.login/GroupApp">
+    <children xsi:type="editmodel:CompartmentEditModel" size="148,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="bookIds" id="lector.client.login/GroupApp#bookIds"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="id" id="lector.client.login/GroupApp#id"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="name" id="lector.client.login/GroupApp#name"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="usersIds" id="lector.client.login/GroupApp#usersIds"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="80,36">
+      <children xsi:type="editmodel:MethodEditModel" name="GroupApp" id="lector.client.login/GroupApp#GroupApp()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GroupApp" id="lector.client.login/GroupApp#GroupApp(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="BookBlob" location="173,16" size="180,225" id="lector.client.reader/BookBlob">
+    <children xsi:type="editmodel:CompartmentEditModel" size="157,126">
+      <children xsi:type="editmodel:AttributeEditModel" name="author" id="lector.client.reader/BookBlob#author"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="id" id="lector.client.reader/BookBlob#id"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pagesCount" id="lector.client.reader/BookBlob#pagesCount"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="publishedYear" id="lector.client.reader/BookBlob#publishedYear"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="title" id="lector.client.reader/BookBlob#title"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="userApp" id="lector.client.reader/BookBlob#userApp"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="webLinks" id="lector.client.reader/BookBlob#webLinks"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="75,36">
+      <children xsi:type="editmodel:MethodEditModel" name="BookBlob" id="lector.client.reader/BookBlob#BookBlob(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.util.ArrayList;Ljava.lang.Long;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="BookBlob" id="lector.client.reader/BookBlob#BookBlob()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="TextSelector" location="0,255" size="147,189" id="lector.client.reader/TextSelector">
+    <children xsi:type="editmodel:CompartmentEditModel" size="78,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="height" id="lector.client.reader/TextSelector#height"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="width" id="lector.client.reader/TextSelector#width"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="x" id="lector.client.reader/TextSelector#x"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="y" id="lector.client.reader/TextSelector#y"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="124,54">
+      <children xsi:type="editmodel:MethodEditModel" name="TextSelector" id="lector.client.reader/TextSelector#TextSelector()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="TextSelector" id="lector.client.reader/TextSelector#TextSelector(Ljava.lang.Long;Ljava.lang.Long;Ljava.lang.Long;Ljava.lang.Long;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTextCoordinates" id="lector.client.reader/TextSelector#getTextCoordinates()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="AnnotationThread" location="0,16" size="174,225" id="lector.client.reader.annotthread/AnnotationThread">
+    <children xsi:type="editmodel:CompartmentEditModel" size="151,126">
+      <children xsi:type="editmodel:AttributeEditModel" name="annotationId" id="lector.client.reader.annotthread/AnnotationThread#annotationId"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="createdDate" id="lector.client.reader.annotthread/AnnotationThread#createdDate"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="id" id="lector.client.reader.annotthread/AnnotationThread#id"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="threadFatherId" id="lector.client.reader.annotthread/AnnotationThread#threadFatherId"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="threadIds" id="lector.client.reader.annotthread/AnnotationThread#threadIds"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="userId" id="lector.client.reader.annotthread/AnnotationThread#userId"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="userName" id="lector.client.reader.annotthread/AnnotationThread#userName"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,36">
+      <children xsi:type="editmodel:MethodEditModel" name="AnnotationThread" id="lector.client.reader.annotthread/AnnotationThread#AnnotationThread()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="AnnotationThread" id="lector.client.reader.annotthread/AnnotationThread#AnnotationThread(Ljava.lang.Long;Ljava.lang.Long;Ljava.util.ArrayList;Lcom.google.appengine.api.datastore.Text;Ljava.lang.Long;Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=7;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
